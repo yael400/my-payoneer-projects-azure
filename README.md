@@ -1,14 +1,21 @@
-My Payoneer Projects on Azure
-Microservices demo project with .NET 8:
-• BooksService → deployed to Azure App Service
+My Payoneer Projects on Azure 
+
+Microservices demo project with .NET 8: 
+
+• BooksService → deployed to Azure App Service 
+
 • LoansService → runs locally and consumes BooksService
-Features
+
+Features:
+
 • ASP.NET Core Minimal APIs
 • EF Core (SQL Server / SQLite)
 • Azure App Service deployment
-• Secure config via User Secrets & Azure App Settings
-Run locally
-dotnet run
+• Secure config via User Secrets & Azure App Settings 
+
+Run locally:
+dotnet run 
+
 Endpoints:
 • /api/books
 • /api/loans
